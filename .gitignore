@@ -5,3 +5,6 @@
 /logs
 /eclipse
 /.settings/
+/nbproject
+/.classpath
+/.project
