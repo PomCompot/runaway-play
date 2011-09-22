@@ -1,3 +1,17 @@
 # You can specialize this file for each language.
 # For example, for French create a messages.fr file
 #
+noun=Nom
+town=Commune
+competitors=Participants
+firstname=Prénom
+lastname=Nom
+birthdate=Date de naissance
+mail=Mail
+address=Adresse
+club=Club
+categorie=Catégorie
+score=Performance
+absoluteRank=Classement général
+uniqueIdentifier=Dossard
+event=Évènement
