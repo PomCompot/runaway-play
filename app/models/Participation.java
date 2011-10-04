@@ -1,8 +1,10 @@
 package models;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
+import javax.persistence.UniqueConstraint;
 
 import play.db.jpa.Model;
 
@@ -11,14 +13,9 @@ public class Participation extends Model {
 	@ManyToOne
 	public Person person;
 	
-	
 	public String uniqueIdentifier;
 	
-	
 	public int absoluteRank;
-	
-	
-	public String score;
 	
 	@ManyToOne
 	public Club club;
@@ -26,9 +23,9 @@ public class Participation extends Model {
 	@ManyToOne
 	public Event event;
 	
-	@OneToOne
-	public Town town;
-	
 	@ManyToOne
 	public Categorie categorie;
+	
+//	@OneToOne
+	public Result result;
 }

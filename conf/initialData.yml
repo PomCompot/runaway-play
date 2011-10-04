@@ -1,0 +1,67 @@
+Categorie(senior):
+    noun: Senior
+Categorie(junior):
+    noun: Junior
+
+Person(person1):
+    firstname: Didier
+    lastname: Burgose
+
+Participation(runner1):
+    person: person1
+    uniqueIdentifier: 1
+    categorie: senior
+
+Person(person2):
+    firstname: Rafaël
+    lastname: Itumichi
+
+Participation(runner2):
+    person: person2
+    uniqueIdentifier: 2
+    categorie: senior
+
+Person(person3):
+    firstname: Isabelle
+    lastname: Staz
+
+Participation(runner3):
+    person: person3
+    uniqueIdentifier: 3
+    categorie: senior
+
+Person(person4):
+    firstname: Julian
+    lastname: O'Gaën
+
+Participation(runner4):
+    person: person4
+    uniqueIdentifier: 4
+    categorie: senior
+
+Person(person5):
+    firstname: Christophe
+    lastname: Poupier
+
+Participation(runner5):
+    person: person5
+    uniqueIdentifier: 5
+    categorie: senior
+
+Person(person6):
+    firstname: Roxanne
+    lastname: Vivanos
+
+Participation(runner6):
+    person: person6
+    uniqueIdentifier: 6
+    categorie: senior
+
+Person(person7):
+    firstname: Igor
+    lastname: Patrulichko
+
+Participation(runner7):
+    person: person7
+    uniqueIdentifier: 7
+    categorie: senior

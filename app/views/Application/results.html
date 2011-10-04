@@ -1,0 +1,10 @@
+<table>
+	<tr><th>Times</th></tr>
+	#{list items: results, as: 'result'}
+		<tr>
+			<td>${result}</td>
+			<td>${result?.participation?.uniqueIdentifier}</td>
+			<td>${result?.participation?.person}</td>
+		</th>
+	#{/list}
+</table>

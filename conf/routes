@@ -5,6 +5,12 @@
 # Home page
 GET     /                                       Application.index
 
+# Event management
+GET		/createEvent.html						Application.createEvent
+
+# JQuery test
+GET		/test.html								Application.test
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 

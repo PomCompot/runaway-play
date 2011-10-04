@@ -1,17 +1,22 @@
 # You can specialize this file for each language.
 # For example, for French create a messages.fr file
 #
-noun=Nom
-town=Commune
-competitors=Participants
-firstname=Prénom
-lastname=Nom
-birthdate=Date de naissance
-mail=Mail
-address=Adresse
+noun=Noun
+town=Town
+competitors=Competitors
+firstname=Firstname
+lastname=Lastname
+birthDate=Birth date
+mail=e-mail
+address=Address
 club=Club
-categorie=Catégorie
-score=Performance
-absoluteRank=Classement général
-uniqueIdentifier=Dossard
-event=Évènement
+category=Category
+score=Score
+absoluteRank=Absolute rank
+uniqueIdentifier=Number
+event=Event
+
+createEvent=Create an event
+prepareEvent=Prepare an event
+startEvent=Start an event
+closeEvent=Close an event

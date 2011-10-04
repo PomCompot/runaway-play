@@ -3,6 +3,7 @@ package models;
 import java.util.Collection;
 
 import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 import org.joda.time.LocalDate;
@@ -23,8 +24,8 @@ public class Person extends Model {
 	
 	public String mail;
 	
-	
-	public String address;
+	@ManyToOne
+	public Town town;
 	
 	@OneToMany
 	public Collection<Participation> participations;
